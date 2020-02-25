@@ -9,7 +9,7 @@ export default class Direccion{
      * @param {string} ciudad 
      * @param {string} municipio 
      */
-    constructor(calle, numeroExt, numeroInt = "", colonia, codigoPostal, ciudad, municipio){
+    constructor(calle, numeroExt, numeroInt, colonia, codigoPostal, ciudad, municipio){
         this.calle = calle
         this.numeroExt = numeroExt
         this.numeroInt = numeroInt
