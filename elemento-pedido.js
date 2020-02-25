@@ -1,5 +1,5 @@
 import Producto from "./producto.js"
-export default class ElementoProducto{
+export default class ElementoPedido{
     /**
      * 
      * @param {string} producto 
@@ -13,5 +13,5 @@ export default class ElementoProducto{
         return (`${this.cantidad} x ${this.producto.getDescripcion()}`)
     }
 }
-let prueba = new ElementoProducto(new Producto("Pizza Hawaina Mediana", 400), 2)
+let prueba = new ElementoPedido(new Producto("Pizza Hawaina Mediana", 400), 2)
 console.log(prueba.getDescripcion())
