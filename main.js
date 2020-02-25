@@ -1,12 +1,12 @@
-import Fecha from "./fecha.js"
-import Tiempo from "./tiempo.js"
-import Precio from "./precio.js"
-import Direccion from "./direccion.js"
-import Producto from "./producto.js"
-import ElementoPedido from "./elemento-pedido.js"
-import Cliente from "./cliente.js"
-import Pedido from "./pedido.js"
-import Restaurante from "./restaurante.js"
+import Fecha from "./fecha"
+import Tiempo from "./tiempo"
+import Precio from "./precio"
+import Direccion from "./direccion"
+import Producto from "./producto"
+import ElementoPedido from "./elemento-pedido"
+import Cliente from "./cliente"
+import Pedido from "./pedido"
+import Restaurante from "./restaurante"
 class Main {
     constructor() {
       this.pedido = new Pedido(
